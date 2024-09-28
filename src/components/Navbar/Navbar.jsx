@@ -30,15 +30,15 @@ const Navbar = () => {
 
   return (
     <div className={header ? 'z-50 w-full text-white bg-black fixed top-0' : 'text-white bg-black'}>
-      <div className='flex items-center justify-between w-full h-20 px-3 xl:px-[75px] md:px-10 z-50 bg-black fixed'>
+      <div className='flex items-center justify-between w-full h-20 px-3 xl:px-[75px] z-50 bg-black fixed'>
         <div className='flex items-center justify-center text-xl font-extrabold text-white'>
           <span className='text-blue px-2 text-xl'>
             <SiConekta />
           </span>
           <h2>CYNDY.</h2>
         </div>
-        <nav className='lg:flex hidden'>
-          <ul className='flex items-center font-bold cursor-pointer gap-[30px]'>
+        <nav className='md:flex hidden'>
+          <ul className='flex items-center font-bold cursor-pointer gap-[30px] md:gap-[20px]'>
             <Link to="hero" spy={true} smooth={true} duration={500} className='hover:text-blue transition duration-500 ease-in-out'>Home</Link>
             <Link to="about" spy={true} smooth={true} duration={500} className='hover:text-blue transition duration-500 ease-in-out'>About</Link>
             <Link to="services" spy={true} smooth={true} duration={500} className='hover:text-blue transition duration-500 ease-in-out'>Services</Link>
@@ -46,20 +46,20 @@ const Navbar = () => {
             <Link to="projects" spy={true} smooth={true} duration={500} className='hover:text-blue transition duration-500 ease-in-out'>Projects</Link>
             <Link to="contact" spy={true} smooth={true} duration={500} className='hover:text-blue transition duration-500 ease-in-out'>Contacts</Link>
             <Link to="contact">
-              <button className='border-blue transform-translate-y-14 hover:scale-110 px-6 py-2 text-white transition duration-500 ease-in-out bg-transparent border-2 rounded-md'>
+              <button className='border-blue transform-translate-y-14 hover:scale-110 px-6 py-2 text-white md:text-[13px] lg:text-[15px] transition duration-500 ease-in-out bg-transparent border-2 rounded-md'>
                 Let's Talk!
               </button>
             </Link>
           </ul>
         </nav>
-        <div className='lg:hidden flex items-center'>
+        <div className='md:hidden flex items-center'>
           {menu ? (
             <LiaTimesSolid size={25} onClick={handleClick} />
           ) : (
             <AiOutlineMenuUnfold size={25} onClick={handleClick} />
           )}
         </div>
-        <div className={`${menu ? 'translate-x-0' : '-translate-x-full'} lg:hidden flex flex-col absolute bg-white text-black left-0 top-20 pt-8 pb-4 gap-8 w-full h-[30rem] items-center transition-transform duration-500 font-bold cursor-pointer`}>
+        <div className={`${menu ? 'translate-x-0' : '-translate-x-full'} md:hidden flex flex-col absolute bg-white text-black left-0 top-20 pt-8 pb-4 gap-8 w-full h-[30rem] items-center transition-transform duration-500 font-bold cursor-pointer`}>
           <Link to="hero" spy={true} smooth={true} duration={500} className='hover:text-blue xl:mr-10 md:mr-4 transition duration-500 ease-in-out'>Home</Link>
           <Link to="about" spy={true} smooth={true} duration={500} className='hover:text-blue xl:mr-10 md:mr-4 transition duration-500 ease-in-out'>About</Link>
           <Link to="services" spy={true} smooth={true} duration={500} className='hover:text-blue xl:mr-10 md:mr-4 transition duration-500 ease-in-out'>Services</Link>

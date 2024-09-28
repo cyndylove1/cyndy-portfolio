@@ -36,13 +36,13 @@ const Contact = () => {
   return (
     <div className=''>
       <ToastContainer />
-      <div className='h-fit bg-black xl:px-20 md:px-10 px-4'>
-        <h2 className='text-center text-4xl text-blue font-extrabold pt-20'>Contacts</h2>
-        <div className='flex justify-between items-center flex-col lg:flex-row pt-10 pb-32'>
+      <div className='h-fit xl:px-20 px-5 bg-black'>
+        <h2 className='text-blue pt-20 text-4xl font-extrabold text-center'>Contacts</h2>
+        <div className='lg:flex-row flex flex-col items-center justify-between pt-10 pb-32'>
           <div className=''>
             <div className='py-16 text-center' data-aos="fade-up" data-aos-delay="200">
-              <h2 className='md:text-5xl text-3xl  font-bold text-white'>Have a Project?</h2>
-              <h2 className='text-5xl font-bold text-white py-4'>Let's Talk!</h2>
+              <h2 className='md:text-5xl text-3xl font-bold text-white'>Have a Project?</h2>
+              <h2 className='py-4 text-5xl font-bold text-white'>Let's Talk!</h2>
             </div>
           </div> 
           <div className='flex justify-center lg:w-[50%] md:w-[70%] w-full' data-aos="fade-up" data-aos-delay="400">
@@ -72,9 +72,9 @@ const Contact = () => {
                 rows="6"  
                 placeholder='Your message' 
                 required
-                className='w-full my-2 border-2 bg-white text-black border-blue rounded-lg outline-none focus:outline-none focus:border-blue px-4 py-2'
+                className='border-blue focus:outline-none focus:border-blue w-full px-4 py-2 my-2 text-black bg-white border-2 rounded-lg outline-none'
               ></textarea><br />
-              <button type='submit' className='bg-blue mt-4 transition duration-500 ease-in-out text-black py-2 px-6 rounded-md font-bold '>Submit</button> 
+              <button type='submit' className='bg-blue px-6 py-2 mt-4 font-bold text-black transition duration-500 ease-in-out rounded-md'>Submit</button> 
             </form> 
           </div> 
         </div>

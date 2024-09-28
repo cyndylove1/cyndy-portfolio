@@ -9,7 +9,7 @@ import { FaLinkedin } from "react-icons/fa";
 const Hero = () => {
   return (
     <div className='h-fit bg-black'>
-      <div className='justify-between md:flex-row flex flex-col items-center xl:mx-20 md:mx-10 mx-4 pt-20 pb-32'>
+      <div className='md:flex-row xl:mx-20 flex flex-col items-center justify-between pt-20 pb-32 mx-5'>
         <div className=''>
           <div className='' data-aos="fade-up" data-aos-delay="200">
             <h5 className=' py-4 text-2xl font-bold text-white'>Hi, I'm Cynthia Nweke</h5>
@@ -25,12 +25,12 @@ const Hero = () => {
             </div>  
           </div>
         </div>
-        <div className='relative h-96 w-fit' data-aos="zoom-in" data-aos-delay="400">
-          <img src={blob} alt="Blob" className='mt-10 w-96 h-fit ' />
+        <div className='h-96 w-fit relative' data-aos="zoom-in" data-aos-delay="400">
+          <img src={blob} alt="Blob" className='w-96 h-fit mt-10' />
           <img src={girl} alt="Girl" className='absolute top-1/2 md:top-[10rem] lg:top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-fit' />
         </div>
       </div>
-      <div className="w-full h-1 bg-gradient-to-r from-black to-white "></div>
+      <div className="bg-gradient-to-r from-black to-white w-full h-1"></div>
     </div>
   )
 }
