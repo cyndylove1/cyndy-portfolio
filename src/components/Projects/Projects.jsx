@@ -25,7 +25,7 @@ const Projects = () => {
                             </div>
                         </div>
                         <div>
-                            <h5 className='py-4 text-lg text-white' data-aos="zoom-in" data-aos-delay="200"> A simple project with aim of bringing everyone together  to bulid a better products. mange makes it simpler for software teams to plan day-day task.</h5>    
+                            <h5 className='md:text-lg py-4 text-[16px] text-white' data-aos="zoom-in" data-aos-delay="200"> A simple project with aim of bringing everyone together  to bulid a better products. mange makes it simpler for software teams to plan day-day task.</h5>    
                         </div>
                     </div>  
                 </div>
@@ -39,7 +39,7 @@ const Projects = () => {
                             <a href="https://gammers-app-indol.vercel.app/"><h2 className='hover:text-blue mr-10 text-xl transition duration-500 ease-in-out cursor-pointer'>View Live</h2></a>
                         </div>
                     </div>
-                    <h5 className='py-4 text-lg text-white' data-aos="zoom-in" data-aos-delay="300"> A game zone application which a player can compete  with Rakuto in this immense challenge and be the winner of all time. </h5>  
+                    <h5 className='md:text-lg py-4 text-[16px] text-white' data-aos="zoom-in" data-aos-delay="300"> A game zone application which a player can compete  with Rakuto in this immense challenge and be the winner of all time. </h5>  
                 </div>
                 <div>
                     <img src={antic} alt=""  className='w-fit h-fit'  data-aos="fade-up" data-aos-duration="300"/>
@@ -51,7 +51,7 @@ const Projects = () => {
                            <a href="https://dx-antic.vercel.app/"><h2 className='hover:text-blue mr-10 text-xl transition duration-500 ease-in-out cursor-pointer'>View Live</h2></a> 
                         </div>
                     </div>
-                    <h5 className='py-4 text-lg text-white'  data-aos="zoom-in" data-aos-delay="400"> A simple interior and exterior projects design, displaying of beautiful  interior and exterior decoration room. </h5>   
+                    <h5 className='py-4 md:text-lg text-white text-[16px]'  data-aos="zoom-in" data-aos-delay="400"> A simple interior and exterior projects design, displaying of beautiful  interior and exterior decoration room. </h5>   
                 </div>
                 <div className="">
                     <img src={manage} alt="" className='w-fit h-fit'  data-aos="fade-up" data-aos-duration="300" />
@@ -63,7 +63,7 @@ const Projects = () => {
                            <a href="https://managing-app.vercel.app/"><h2 className='hover:text-blue mr-10 text-xl transition duration-500 ease-in-out cursor-pointer'>View Live</h2></a> 
                         </div>
                     </div>
-                    <h5 className='py-4 text-lg text-white'  data-aos="zoom-in" data-aos-delay="500"> A simple project with aim of bringing everyone together to bulid a better products. mange makes it simpler for software teams  to plan day-day task.</h5> 
+                    <h5 className='py-4 md:text-lg text-white text-[16px]'  data-aos="zoom-in" data-aos-delay="500"> A simple project with aim of bringing everyone together to bulid a better products. mange makes it simpler for software teams  to plan day-day task.</h5> 
                 </div>
             </div>
             <div class="w-full h-1 bg-gradient-to-r from-black to-white"></div>
