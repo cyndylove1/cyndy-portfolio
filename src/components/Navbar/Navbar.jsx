@@ -38,7 +38,7 @@ const Navbar = () => {
           <h2>CYNDY.</h2>
         </div>
         <nav className='md:flex hidden'>
-          <ul className='flex items-center font-bold cursor-pointer gap-[30px] md:gap-[20px]'>
+          <ul className='flex items-center font-bold cursor-pointer lg:gap-[30px] md:gap-[20px]'>
             <Link to="hero" spy={true} smooth={true} duration={500} className='hover:text-blue transition duration-500 ease-in-out'>Home</Link>
             <Link to="about" spy={true} smooth={true} duration={500} className='hover:text-blue transition duration-500 ease-in-out'>About</Link>
             <Link to="services" spy={true} smooth={true} duration={500} className='hover:text-blue transition duration-500 ease-in-out'>Services</Link>
