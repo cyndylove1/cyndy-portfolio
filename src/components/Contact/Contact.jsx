@@ -2,11 +2,9 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import Swal from 'sweetalert2';
 
 const Contact = () => {
 
-  const notify = () => toast.success("Sent Successfully!"); // Display success toast
 
   const form = useRef();
 
@@ -17,19 +15,13 @@ const Contact = () => {
       .sendForm('service_nqerapm', 'template_0albnh7', form.current, 'oAjyzmxKCMONiqFu2')
       .then(
         () => {
-          console.log('SUCCESS!');
-          notify(); 
+          toast.success("Sent Successfully!")
           form.current.reset();
         },
         (error) => {
-          console.log('FAILED...', error.text);
-          Swal.fire({
-            icon: "error",
-            title: "Oops...",
-            text: "Something went wrong!",
-            footer: '<a href="#">Check your connections</a>'
-          });
-        },
+          toast.error("Failed to submit");
+        }
+       
       );
   };
 
