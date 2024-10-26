@@ -17,7 +17,7 @@ const Hero = () => {
             <div className='md:w-[70%] w-full'>
               <h6 className=' font-bold text-justify text-white'>I am a Software Developer, I can provide clean code and pixel perfect design.</h6>
             </div>
-            <a href="Nweke Cynthia Cv.pdf" download="Nweke Cynthia Cv.pdf"><button className='bg-blue transform-translate-y-14 hover:scale-110 px-4 py-2 mt-2 font-bold text-black transition duration-500 ease-in-out rounded-md'>Download Cv</button></a>
+            <a href="Nweke Cynthia CV.pdf" download="Nweke Cynthia CV.pdf"><button className='bg-blue transform-translate-y-14 hover:scale-110 px-4 py-2 mt-2 font-bold text-black transition duration-500 ease-in-out rounded-md'>Download Cv</button></a>
             <div className=' flex inline-block cursor-pointer'>
               <a href="https://github.com/cyndylove1"><h2 className='text-blue transform-translate-y-14 hover:scale-110 py-2 mt-2 ml-4 text-2xl transition duration-500 ease-in-out'><FaGithub /></h2> </a> 
               <a href="https://twitter.com/cyndynweke81"><h2 className='text-blue transform-translate-y-14 hover:scale-110 py-2 mt-2 ml-4 text-2xl transition duration-500 ease-in-out'><FaTwitter /></h2></a>
