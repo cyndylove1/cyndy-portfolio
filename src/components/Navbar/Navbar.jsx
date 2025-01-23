@@ -31,12 +31,12 @@ const Navbar = () => {
   return (
     <div className={header ? 'z-50 w-full text-white bg-black fixed top-0' : 'text-white bg-black'}>
       <div className='flex items-center justify-between w-full h-20 px-3 xl:px-[75px] z-50 bg-black fixed'>
-        <div className='flex items-center justify-center text-xl font-extrabold text-white'>
+        <Link to="hero" className="flex items-center justify-center text-xl font-extrabold text-white cursor-pointer">
           <span className='text-blue px-2 text-xl'>
             <SiConekta />
           </span>
           <h2>CYNDY.</h2>
-        </div>
+        </Link> 
         <nav className='md:flex hidden'>
           <ul className='flex items-center font-bold cursor-pointer lg:gap-[30px] md:gap-[20px]'>
             <Link to="hero" spy={true} smooth={true} duration={500} className='hover:text-blue transition duration-500 ease-in-out'>Home</Link>
