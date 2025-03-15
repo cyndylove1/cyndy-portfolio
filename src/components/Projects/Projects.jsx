@@ -1,7 +1,7 @@
 import React from "react";
-import hey from "../images/hey pics.PNG";
+import Suft from "../images/suft.JPG";
 import manage from "../images/Capture.PNG";
-import gammer from "../images/gammers.PNG";
+import Admin from "../images/suft-admin.JPG";
 import antic from "../images/antic.PNG";
 // import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 
@@ -17,7 +17,7 @@ const Projects = () => {
         <div className="md:grid-cols-2 xl:mx-20 grid grid-cols-1 gap-10 pt-10 pb-32 mx-5">
           <div className="">
             <img
-              src={hey}
+              src={Suft}
               alt=""
               className="h-fit w-fit"
               data-aos="fade-up"
@@ -31,11 +31,11 @@ const Projects = () => {
               >
                 <div className="">
                   <h3 className="text-blue ml-1 text-2xl font-extrabold">
-                    HeyWallet
+                    Suft
                   </h3>
                 </div>
                 <div className="mr-10">
-                  <a href="https://hey-app-cyan.vercel.app/">
+                  <a href="https://getsuft.com/">
                     <h2 className="hover:text-blue text-xl transition duration-500 ease-in-out cursor-pointer">
                       View Live
                     </h2>
@@ -49,16 +49,16 @@ const Projects = () => {
                   data-aos-delay="200"
                 >
                   {" "}
-                  A simple project with aim of bringing everyone together to
-                  bulid a better products. mange makes it simpler for software
-                  teams to plan day-day task.
+                  An ecommerce website is an online platform that enables
+                  businesses and individuals to buy products or services over
+                  the internet.
                 </h5>
               </div>
             </div>
           </div>
           <div className="">
             <img
-              src={gammer}
+              src={Admin}
               alt=""
               className="w-fit h-fit"
               data-aos="fade-up"
@@ -71,11 +71,11 @@ const Projects = () => {
             >
               <div className="">
                 <h3 className="text-blue ml-1 text-2xl font-extrabold">
-                  Game Zone
+                  Suft-Admin
                 </h3>
               </div>
               <div>
-                <a href="https://gammers-app-indol.vercel.app/">
+                <a href="https://getsuft.com/admin/login">
                   <h2 className="hover:text-blue mr-10 text-xl transition duration-500 ease-in-out cursor-pointer">
                     View Live
                   </h2>
@@ -88,8 +88,9 @@ const Projects = () => {
               data-aos-delay="300"
             >
               {" "}
-              A game zone application which a player can compete with Rakuto in
-              this immense challenge and be the winner of all time.{" "}
+              An Admin Dashboard is a web-based interface that provides
+              administrators with tools to manage and monitor various aspects of
+              a system, application, or website.
             </h5>
           </div>
           <div>
