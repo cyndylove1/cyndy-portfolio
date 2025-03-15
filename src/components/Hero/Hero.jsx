@@ -50,11 +50,11 @@ const Hero = () => {
           </div>
         </div>
         <div
-          className="h-96 w-fit relative"
+          className="md:h-96 md:w-96 relative w-full h-full"
           data-aos="zoom-in"
           data-aos-delay="400"
         >
-          <img src={blob} alt="Blob" className="w-96 mt-10" />
+          <img src={blob} alt="Blob" className="md:w-96 w-full mt-10" />
           <img
             src={girl}
             alt="Girl"
