@@ -58,7 +58,7 @@ const Hero = () => {
           <img
             src={girl}
             alt="Girl"
-            className="absolute top-1/2 md:top-[10rem] lg:top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-fit"
+            className="absolute top-1/2 md:top-[10rem] lg:top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-full "
           />
         </div>
       </div>
