@@ -19,7 +19,7 @@ const Projects = () => {
             <img
               src={Suft}
               alt=""
-              className="h-fit w-fit"
+              className=""
               data-aos="fade-up"
               data-aos-duration="300"
             />
@@ -60,7 +60,7 @@ const Projects = () => {
             <img
               src={Admin}
               alt=""
-              className="w-fit h-fit"
+              className=""
               data-aos="fade-up"
               data-aos-duration="300"
             />
@@ -97,7 +97,7 @@ const Projects = () => {
             <img
               src={antic}
               alt=""
-              className="w-fit h-fit"
+              className=""
               data-aos="fade-up"
               data-aos-duration="300"
             />
@@ -133,7 +133,7 @@ const Projects = () => {
             <img
               src={manage}
               alt=""
-              className="w-fit h-fit"
+              className=""
               data-aos="fade-up"
               data-aos-duration="300"
             />

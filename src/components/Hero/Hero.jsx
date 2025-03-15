@@ -54,7 +54,7 @@ const Hero = () => {
           data-aos="zoom-in"
           data-aos-delay="400"
         >
-          <img src={blob} alt="Blob" className="w-96 h-fit mt-10" />
+          <img src={blob} alt="Blob" className="w-96 mt-10" />
           <img
             src={girl}
             alt="Girl"
