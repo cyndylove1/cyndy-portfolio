@@ -21,7 +21,7 @@ const Hero = () => {
             </h1>
             <div className="md:w-[70%] w-full">
               <h6 className=" font-bold text-justify text-white">
-                I am a Software Developer, I can provide clean code and pixel
+                I am a FrontEnd Developer, I can provide clean code and pixel
                 perfect design.
               </h6>
             </div>
