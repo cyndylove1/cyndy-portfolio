@@ -16,12 +16,12 @@ const Hero = () => {
             </h5>
             <h1 className=" pb-2 text-5xl font-bold text-white">
               {" "}
-              <span className="text-blue">SoftWare</span>{" "}
+              <span className="text-blue">Frontend</span>{" "}
               <span className="text-purple">Developer.</span>
             </h1>
             <div className="md:w-[70%] w-full">
               <h6 className=" font-bold text-justify text-white">
-                I am a FrontEnd Developer, I can provide clean code and pixel
+                I am a Frontend Developer, I can provide clean code and pixel
                 perfect design.
               </h6>
             </div>

@@ -12,7 +12,7 @@ const About = () => {
         <div className=" flex flex-col md:flex-row justify-between items-center xl:mx-20 mx-5 md:gap-[30px] lg:gap-0 gap-0 pt-10">
           <div className="" data-aos="fade-up" data-aos-duration="300">
             <h3 className=" lg:w-82 md:w-97 md:text-lg text-[16px] text-justify text-white">
-              A motivated FrontEnd developer with keen eye for beautiful and
+              A motivated Frontend developer with keen eye for beautiful and
               responsive web applications. Proficient in translating design
               concepts into pixel-perfect, responsive web applications that
               deliver exceptional user experiences. Adept at utilizing modern

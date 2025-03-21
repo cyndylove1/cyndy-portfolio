@@ -9,8 +9,7 @@ import { FaSass } from "react-icons/fa";
 import { FaGitAlt } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa6";
 import { FaNode } from "react-icons/fa";
-import { SiMongoosedotws } from "react-icons/si";
-import { SiMongodb } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
 
 const Skill = () => {
   return (
@@ -19,7 +18,7 @@ const Skill = () => {
         Skills
       </h2>
       <div
-        className="md:grid-cols-6 md:gap-4 xl:mx-20 grid justify-center grid-cols-4 gap-5 pt-10 pb-32 mx-5"
+        className="md:grid-cols-5 md:gap-4 xl:mx-20 grid justify-center grid-cols-4 gap-5 pt-10 pb-32 mx-5"
         data-aos="zoom-in"
         data-aos-delay="200"
       >
@@ -71,6 +70,14 @@ const Skill = () => {
             JavaScript
           </h2>
         </div>
+        <div className="transform-translate-y-14 hover:scale-110 transition duration-500 ease-in-out">
+          <h6 className="text-blue text-6xl">
+            <SiTypescript />
+          </h6>
+          <h2 className="md:text-2xl text-base font-bold text-white">
+            Typescript
+          </h2>
+        </div>
         <div className="transform-translate-y-14 hover:scale-110 ml-3 transition duration-500 ease-in-out">
           <h6 className="text-blue text-6xl">
             <FaSass />
@@ -99,22 +106,22 @@ const Skill = () => {
             Node Js
           </h2>
         </div>
-        <div className="transform-translate-y-14 hover:scale-110 transition duration-500 ease-in-out">
+        {/* <div className="transform-translate-y-14 hover:scale-110 transition duration-500 ease-in-out">
           <h6 className="text-blue text-6xl">
             <SiMongoosedotws />
           </h6>
           <h2 className="md:text-2xl text-base font-bold text-white">
             Mongoose
           </h2>
-        </div>
-        <div className="transform-translate-y-14 hover:scale-110 ml-4 transition duration-500 ease-in-out">
+        </div> */}
+        {/* <div className="transform-translate-y-14 hover:scale-110 ml-4 transition duration-500 ease-in-out">
           <h6 className="text-blue text-6xl">
             <SiMongodb />
           </h6>
           <h2 className="md:text-2xl text-base font-bold text-white">
             Mongo DB
           </h2>
-        </div>
+        </div> */}
       </div>
       <div class="w-full h-1 bg-gradient-to-r from-black to-white"></div>
     </div>
