@@ -45,7 +45,7 @@ const About = () => {
               <span className="text-blue inline-block text-3xl">
                 <AiOutlineCheck />
               </span>
-              <span className=" mx-4 text-3xl text-white">+4</span>
+              <span className=" mx-4 text-3xl text-white">+3</span>
               <span className="text-blue md:text-lg text-[15px] ml-6 font-bold">
                 Years of Experience
               </span>
