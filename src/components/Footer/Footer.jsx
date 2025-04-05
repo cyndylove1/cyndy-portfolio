@@ -17,7 +17,7 @@ const Footer = () => {
             </span>
             , All right reserved for Nweke Cynthia.
           </h5>
-          <div className="flex justify-center pt-2 cursor-pointer">
+          <div className=" flex justify-center pt-2 cursor-pointer">
             <a href="https://github.com/cyndylove1">
               <h2 className="transform-translate-y-14 hover:scale-110 py-2 mx-2 text-2xl transition duration-500 ease-in-out">
                 <FaGithub />
