@@ -2,8 +2,8 @@ import React from "react";
 import Suft from "../images/suft.JPG";
 import manage from "../images/Capture.PNG";
 import Admin from "../images/suft-admin.JPG";
-import antic from "../images/antic.PNG";
-// import { FaArrowUpRightFromSquare } from "react-icons/fa6";
+import chequeMate from "../images/chequemate.JPG";
+
 
 const Projects = () => {
   return (
@@ -95,7 +95,7 @@ const Projects = () => {
           </div>
           <div>
             <img
-              src={antic}
+              src={chequeMate}
               alt=""
               className=""
               data-aos="fade-up"
@@ -108,11 +108,11 @@ const Projects = () => {
             >
               <div>
                 <h3 className="text-blue ml-1 text-2xl font-extrabold">
-                  Antic
+                  ChequeMate
                 </h3>
               </div>
               <div className="">
-                <a href="https://dx-antic.vercel.app/">
+                <a href="https://chequemateapp.com/">
                   <h2 className="hover:text-blue mr-10 text-xl transition duration-500 ease-in-out cursor-pointer">
                     View Live
                   </h2>
@@ -125,8 +125,8 @@ const Projects = () => {
               data-aos-delay="400"
             >
               {" "}
-              A simple interior and exterior projects design, displaying of
-              beautiful interior and exterior decoration room.{" "}
+              Manage and control multiple Ajo groups with Chequemate and earn up
+              to 20% interest per annum.
             </h5>
           </div>
           <div className="">
