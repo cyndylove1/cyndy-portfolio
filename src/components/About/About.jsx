@@ -32,25 +32,25 @@ const About = () => {
             data-aos="zoom-in"
             data-aos-duration="300"
           >
-            <h5 className="border-blue py-6 border-b-2 border-dotted">
-              <span className="text-blue inline-block text-3xl">
+            <div className="border-blue flex items-center py-6 border-b-2 border-dotted">
+              <span className="text-blue text-3xl">
                 <AiOutlineCheck />
               </span>
               <span className="mx-4 text-3xl text-white">90%</span>
               <span className="text-blue md:text-lg text-[15px] font-bold">
                 Client Satisfaction
               </span>
-            </h5>
-            <h5 className="border-blue py-6 border-b-2 border-dotted">
-              <span className="text-blue inline-block text-3xl">
+            </div>
+            <div className="border-blue flex items-center py-6 border-b-2 border-dotted">
+              <span className="text-blue text-3xl">
                 <AiOutlineCheck />
               </span>
               <span className=" mx-4 text-3xl text-white">+3</span>
               <span className="text-blue md:text-lg text-[15px] ml-6 font-bold">
                 Years of Experience
               </span>
-            </h5>
-            <h5 className=" py-6">
+            </div>
+            <div className="flex items-center py-6">
               <span className="text-blue inline-block text-3xl">
                 <AiOutlineCheck />
               </span>
@@ -58,7 +58,7 @@ const About = () => {
               <span className="text-blue md:text-lg text-[16px] ml-2 font-bold">
                 Successful Projects
               </span>
-            </h5>
+            </div>
           </div>
         </div>
       </div>

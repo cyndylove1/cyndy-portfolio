@@ -19,7 +19,7 @@ const Projects = () => {
             <img
               src={Suft}
               alt=""
-              className=""
+              className="rounded-xl"
               data-aos="fade-up"
               data-aos-duration="300"
             />
@@ -60,7 +60,7 @@ const Projects = () => {
             <img
               src={Admin}
               alt=""
-              className=""
+              className="rounded-xl"
               data-aos="fade-up"
               data-aos-duration="300"
             />
@@ -97,7 +97,7 @@ const Projects = () => {
             <img
               src={chequeMate}
               alt=""
-              className=""
+              className="rounded-xl"
               data-aos="fade-up"
               data-aos-duration="300"
             />
@@ -133,7 +133,7 @@ const Projects = () => {
             <img
               src={manage}
               alt=""
-              className=""
+              className="rounded-xl"
               data-aos="fade-up"
               data-aos-duration="300"
             />
