@@ -75,7 +75,7 @@ const Projects = () => {
                 </h3>
               </div>
               <div>
-                <a href="https://getsuft.com/admin/login">
+                <a href="https://getsuft.com/admin">
                   <h2 className="hover:text-blue mr-10 text-xl transition duration-500 ease-in-out cursor-pointer">
                     View Live
                   </h2>
