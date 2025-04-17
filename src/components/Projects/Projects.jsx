@@ -88,7 +88,7 @@ const Projects = () => {
               data-aos-delay="300"
             >
               {" "}
-              An Admin Dashboard is a web-based interface that provides
+              Suft-Admin Dashboard is a web-based interface that provides
               administrators with tools to manage and monitor various aspects of
               a system, application, or website.
             </h5>
@@ -125,7 +125,7 @@ const Projects = () => {
               data-aos-delay="400"
             >
               {" "}
-              Manage and control multiple Ajo groups with Chequemate and earn up
+              Chequemate is an Ajo website that Manage and control multiple Ajo groups with Chequemate you earn up
               to 20% interest per annum.
             </h5>
           </div>
