@@ -49,8 +49,8 @@ const Projects = () => {
                   data-aos-delay="200"
                 >
                   {" "}
-                  An ecommerce website is an online platform that enables
-                  businesses and individuals to buy products or services over
+                  Suft website is an E-commerce platform that enables
+                  individuals to buy products or services over
                   the internet.
                 </h5>
               </div>
@@ -75,7 +75,7 @@ const Projects = () => {
                 </h3>
               </div>
               <div>
-                <a href="https://getsuft.com/admin">
+                <a href="https://getsuft.com/admin/login">
                   <h2 className="hover:text-blue mr-10 text-xl transition duration-500 ease-in-out cursor-pointer">
                     View Live
                   </h2>
