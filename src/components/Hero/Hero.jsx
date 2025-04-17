@@ -25,7 +25,7 @@ const Hero = () => {
                 perfect design.
               </h6>
             </div>
-            <a href="Nweke Cynthia Resume.pdf" download="Nweke Cynthia Resume.pdf">
+            <a href="Nweke Cynthia Chinenye Resume.pdf" download="Nweke Cynthia Chinenye Resume.pdf">
               <button className="bg-blue transform-translate-y-14 hover:scale-110 px-4 py-2 mt-2 font-bold text-black transition duration-500 ease-in-out rounded-md">
                 Download Cv
               </button>
